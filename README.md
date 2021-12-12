@@ -37,7 +37,7 @@ Dimension Tables.
 5. time - timestamps of records in songplays broken down into specific units.
     - start_time, hour, day, week, month, year, weekday.
 
-![Star schema](/assets/images/Sparkify_schema.png "Star Schema")
+![Star schema](https://github.com/vnteleah/sparkify-pipeline/blob/main/Sparkify_schema.png "Star Schema")
 
 
 ### Airflow DAG
@@ -93,4 +93,4 @@ Once you've entered these values, select Save.
 
 Run the Dag on Airflow UI
 
-![Working DAG with task dependencies](/assets/images/Sparkify_dag.png "Working DAG with task dependencies")
+![Working DAG with task dependencies](https://github.com/vnteleah/sparkify-pipeline/blob/main/Sparkify_dag.png "Working DAG with task dependencies")
